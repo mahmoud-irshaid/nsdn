@@ -12,9 +12,11 @@
     "typegen": "sanity schema extract --path=./sanity/extract.json && sanity typegen generate"
   },
   "dependencies": {
+    "@radix-ui/react-avatar": "^1.1.9",
     "@radix-ui/react-slot": "^1.2.2",
     "@sanity/image-url": "^1.1.0",
     "@sanity/vision": "^3.88.2",
+    "@sentry/nextjs": "^9.20.0",
     "@tailwindcss/typography": "^0.5.16",
     "@uiw/react-md-editor": "^4.0.6",
     "class-variance-authority": "^0.7.1",
